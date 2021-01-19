@@ -1,0 +1,118 @@
+<!-- index.html -->
+<!-- 
+By Tim Gibney
+20210116
+-->
+<!--
+1.	Style the website you made last week using CSS. Below are the requirements:
+    a.	Use only external CSS file (no internal or inline styling)
+    b.	Every element must be styled
+    c.	Create style rules using class, id, and element selectors
+-->
+<!DOCTYPE html>
+<html lang="en" class="index">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FESD FET Week 2 - Home</title></head>
+    <link rel="stylesheet" href="styles.css">
+<body>
+
+    <h1>Home</h1>
+    
+    <h3>Links in a &ltdiv&gt</h3>
+
+    <div class="menu">
+        <a href="index.html">Home </a>
+        <a href="page1.html">Page 1</a>
+        <a href="page2.html">Page 2</a>
+    </div>
+
+    <table>
+        <tr>
+            <td><a href="index.html">Home </a></td> 
+            <td><a href="page1.html">Page 1</a></td>
+            <td><a href="page2.html">Page 2</a></td>
+        </tr>
+    </table>
+
+    <h3>Links in a &ltnav&gt</nav></h3>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home </a></li>
+            <li><a href="page1.html">Page 1</a></li>
+            <li><a href="page2.html">Page 2</a></li>
+        </ul>
+    </nav>
+
+    <nav>
+        <a href="index.html">Home </a>
+        <a href="page1.html">Page 1</a>
+        <a href="page2.html">Page 2</a>
+    </nav>
+
+    
+
+    <h3>Links in a table with headers and rows</h3>
+
+    <table>   
+        <tr>
+            <th>Web Page</th>
+            <th>URL</th>
+        </tr>
+        <tr>
+            <td align="center"><a href="index.html">Home </a></td>
+            <td align="center">index.html</td>
+        </tr>
+        <tr>
+            <td><a href="page1.html">Page 1</a></td>
+            <td>page1.html</td>
+        </tr>
+        <tr>
+            <td><a href="page2.html">Page 2</a></td>
+            <td>page2.html</td>
+        </tr>
+    </table>
+
+    <h3>An Ordered List</h3>
+
+    <ol><!--Ordered list creates a list with leading numbers-->
+        <li>HTML</li><!--List items-->
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <h3>A Horizontal Rule</h3>
+    <hr/><!--Horizontal rule-->
+
+    <h3>The beginnings of a form</h3>
+
+    <form>
+        <input type="text" name="firstName" placeHolder="First Name"><br>
+        <input type="text" name="lastName" placeHolder="Last Name"><br><br>
+        Beautiful Nature:<br>
+        <input type="radio" name="which image" value="CrocEyes"> Croc Eyes <br>
+        <input type="radio" name="which image" value="Gecco"> Penguins <br>
+        <input type="radio" name="which image" value="Penguins"> Gecco <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <hr>
+    <a href="index.html">
+    <img src="3000.jpg" height="200" alt="Croc eyes">
+    </a>
+    <a href="page1.html">
+    <img src="3001.jpg" height="200" alt="Gecco">
+    </a>
+    <a href="page2.html">
+    <img src="3002.jpg" height="200" alt="Penguins">
+    </a>
+
+    <h3>Some buttons with links</h3>
+
+    <button onclick="location.href='index.html'" type="button">Home</button>
+    <button onclick="location.href='page1.html'" type="button">Page 1</button>
+    <button onclick="location.href='page2.html'" type="button">Page 2</button>
+
+</body>
+</html>
