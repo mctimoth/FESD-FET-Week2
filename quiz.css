@@ -1,0 +1,44 @@
+/* quiz.css */
+
+body {
+    background-color: blue;
+}
+
+p#text-2 {
+    color: red;
+}
+
+div.box {
+    margin: 25%;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+li:hover {
+    background-color: white;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    text-align: left;
+    border-top: solid 1px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    border-left: solid 1px;
+}
+
+tr:nth-child(3n+3) {
+    background-color: lightgrey;
+}
+
+tr:hover {
+    background-color: gray;
+}
+
+th {
+    background-color: white;
+}
