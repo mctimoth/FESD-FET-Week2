@@ -5,6 +5,11 @@ Created by Tim Gibney
 FESD-FET-Week2
 */
 
+h3 {
+    color: darkblue;
+    text-decoration: underline;
+}
+
 #ol-inner-lower-case-letters {
     list-style-type: lower-alpha;
 }
@@ -53,7 +58,7 @@ hr {/*This way all floats will be cleared before the hr*/
       clear: both;
   }
 
-  .img-float-left{
+.img-float-left{
       float: left;
       margin: 10px 10px 0px 0px;
   }
@@ -116,14 +121,14 @@ ul.menu {
     width:25%
   }
   
-  li.menu {
+li.menu {
     float: left;
     background-color: #333333;
     border-top-left-radius:10px;
     border-top-right-radius:10px;
   }
   
-  li.menu a {
+li.menu a {
     display: block;
     color: white;
     text-align: center;
@@ -132,14 +137,14 @@ ul.menu {
   }
   
   /*Changes the color of the tab while it is hovered over*/
-  li.menu a:hover {
+li.menu a:hover {
     background-color: #111111;
     border-top-left-radius:10px;
     border-top-right-radius:10px;
   }
 
   /*Changes the color of the active tab on a per page basis*/
-  li.menu.active {/*Apply to each page's menu item to be active*/
+li.menu.active {/*Apply to each page's menu item to be active*/
       background-color: #777777;
       border-top-left-radius:10px;
       border-top-right-radius:10px;
@@ -202,4 +207,9 @@ th {
 } */
 th #tableTitle {
     text-align: center;
+}
+
+ol.courseWorkList {
+    background-color: pink;
+    width: 10%;
 }
